@@ -1,6 +1,6 @@
 {
   "name": "dachshund",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert files with underscores to dashes (and vice versa).",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,17 @@
     "dunder": "bin/dunder",
     "udash": "bin/udash"
   },
-  "author": "George Lee <keoki.lee@gmail.com>",
+  "author": "George Lee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keokilee/dachshund.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keokilee/dachshund/issues"
+  },
+  "homepage": {
+    "url": "https://github.com/keokilee/dachshund"
+  },
   "license": "ISC",
   "dependencies": {
     "commander": "^2.9.0"
