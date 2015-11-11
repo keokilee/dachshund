@@ -1,5 +1,7 @@
 # Dachshund
 
+[![npm version](https://badge.fury.io/js/dachshund.svg)](https://badge.fury.io/js/dachshund)
+
 Convert the underscores in a file/directory name to dashes or convert the dashes to underscores.
 
 ## Usage
