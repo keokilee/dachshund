@@ -29,5 +29,9 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "expect": "^1.12.2",
+    "mocha": "^2.3.3"
   }
 }
