@@ -11,6 +11,10 @@
     "dashes",
     "underscores"
   ],
+  "bin": {
+    "dunder": "bin/dunder",
+    "udash": "bin/udash"
+  },
   "author": "George Lee <keoki.lee@gmail.com>",
   "license": "ISC",
   "dependencies": {
