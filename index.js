@@ -30,6 +30,26 @@ function dashToUnder(args) {
   program.args.forEach(dachshund.underscorize);
 }
 
+function dashize(path) {
+  daschund.dashize(path, (err, newPath) => {
+    if (err) {
+      console.error(err.message);
+    } else {
+      console.log(`# ${path} => ${newPath}`);
+    }
+  });
+}
+
+function underscorize(path) {
+  daschund.underscorize(path, (err, newPath) => {
+    if (err) {
+      console.error(err.message);
+    } else {
+      console.log(`# ${path} => ${newPath}`);
+    }
+  });
+}
+
 if (require.main === module) {
   dashToUnder(process.argv);
 }
