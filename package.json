@@ -1,6 +1,6 @@
 {
   "name": "dachshund",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert files with underscores to dashes (and vice versa).",
   "main": "index.js",
   "scripts": {
