@@ -4,7 +4,7 @@
   "description": "Convert files with underscores to dashes (and vice versa).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/"
   },
   "keywords": [
     "utilities",
@@ -28,6 +28,14 @@
   },
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.0.5",
     "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "expect": "^1.12.2",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.3.3",
+    "rimraf": "^2.4.3",
+    "touch": "^1.0.0"
   }
 }
