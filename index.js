@@ -16,7 +16,7 @@ function underToDash(args) {
     return;
   }
 
-  program.args.forEach(dachshund.dashize);
+  program.args.forEach(dashize);
 }
 
 function dashToUnder(args) {
@@ -27,11 +27,11 @@ function dashToUnder(args) {
     return;
   }
 
-  program.args.forEach(dachshund.underscorize);
+  program.args.forEach(underscorize);
 }
 
 function dashize(path) {
-  daschund.dashize(path, (err, newPath) => {
+  dachshund.dashize(path, (err, newPath) => {
     if (err) {
       console.error(err.message);
     } else {
@@ -41,7 +41,7 @@ function dashize(path) {
 }
 
 function underscorize(path) {
-  daschund.underscorize(path, (err, newPath) => {
+  dachshund.underscorize(path, (err, newPath) => {
     if (err) {
       console.error(err.message);
     } else {
@@ -51,5 +51,5 @@ function underscorize(path) {
 }
 
 if (require.main === module) {
-  dashToUnder(process.argv);
+  underToDash(process.argv);
 }
