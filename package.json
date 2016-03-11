@@ -32,7 +32,7 @@
     "commander": "^2.9.0"
   },
   "devDependencies": {
-    "expect": "^1.12.2",
+    "expect": "^1.15.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.3.3",
     "rimraf": "^2.5.0",
